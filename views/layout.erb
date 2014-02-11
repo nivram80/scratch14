@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratchtown Brewing Company - <%= @title %></title>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/scratch14.css">
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+
+<body>
+	<nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="/">Scratchtown Brewing Company</a></h1>
+	    </li>
+	    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+	  </ul>
+
+	  <section class="top-bar-section">
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+	      <li class="active"><a href="/">Home</a></li>
+	      <li class="has-dropdown">
+	        <a href="about">About</a>
+	        <ul class="dropdown">
+	          <li><a href="founders">Founders</a></li>
+	        </ul>
+	      </li>
+	      <li class="active"><a href="http://shopord.com/manufacturers.php?manufacturerid=22" target="_blank">Shop</a></li>
+	      <li class="active"><a href="beer">Beer</a></li>
+	      <li class="active"><a href="contact">Contact</a></li>
+	    </ul>
+	  </section> 
+	</nav> <!-- End of top bar nav -->
+
+	<header>
+		<img src="img/scratchBanner4_wide.jpg">
+	</header>
+
+	<%= yield %>
+
+	<div id="footer">
+		<hr />
+		<a href="/">Home</a> | <a href="about">About</a> | <a href="http://shopord.com/manufacturers.php?manufacturerid=22" target="_blank">Shop</a> | <a href="beer">Beer</a> | <a href="contact">Contact</a><br />
+		<a href="https://twitter.com/ScratchtownBrew" target="_blank"><img src="img/twitter30.png" alt="Twitter Image" title="Scratchtown Twitter Page"></a>
+		<a href="http://www.facebook.com/scratchtownbrewing" target="_blank"><img src="img/facebook30.png" alt="Facebook Image" title="Scratchtown Facebook Page"></a>
+		<a href="https://untappd.com/ScratchtownBrewingCompany" target="_blank"><img src="img/untappd30.png" alt="Untappd Image" title="Scratchtown Untappd Page"></a>
+		<p>Copyright @ <%= Time.now.year %> Scratchtown Brewing Company</p>
+		<p>Design by <a href="http://www.omahaareaman.com" target="_blank">omahaareaman.com</a></p>
+	</div>
+
+	<script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+	<script>
+      $(document).foundation();
+   </script>
+   
+</body>
+</html>

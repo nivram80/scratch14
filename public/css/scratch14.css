@@ -1,0 +1,174 @@
+body, h2, h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+p {
+	font-size: 1.2rem;
+}
+@font-face {
+	font-family: 'titleFont';
+  src: url('/fonts/ThrowMyHandsUpintheAir.ttf');
+}
+header {
+	text-align: center;
+}
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #000;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+/* GENERAL CONTENT STUFF */
+
+.content {
+	margin-top: 25px;
+	padding: 10px;
+}
+.content a {
+	color: #294D18;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.content h1 {
+	font-family: titleFont;
+	font-size: 2rem;
+	font-weight: bold;
+	border-bottom: 1px solid #333;
+}
+.content img {
+	padding: 3px;
+	border: 1px solid #313131;
+	margin: 0 0 20px 15px;
+}
+iframe {
+	padding: 3px;
+	border: 1px solid #313131;
+}
+.component {
+	margin: 0 15px 0 15px;
+}
+.component img {
+	margin: 0 0 7px 0;
+}
+.text {
+	padding-top: 25px;
+}
+
+/* FOUNDERS BUTTON */
+
+.founders_button {
+	display: inline-block;
+	width: 250px;
+	border: 4px double #000;
+	font-family: Tahoma, sans-serif;
+	background-image: url('/img/beer_mug.png');
+	background-repeat: no-repeat;
+	background-position: top 5px left 10px;
+	background-color: #fff;
+	color: #000;
+	text-decoration: none !important;
+	margin: 0 5px 7px 5px;
+	opacity: 0.75;
+	transition: opacity 0.65s ease;
+}
+.founders_button:hover {
+	opacity: 1.0;
+}
+.founders_button h3 {
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 5px 0 0 70px;
+	padding: 0;
+}
+.founders_button h4 {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+	margin: -6px 0 0 70px;
+	padding: 0;
+}
+
+/* FOUNDERS PAGE */
+
+.founder {
+	border-bottom: 1px dotted #313131;
+	margin-bottom: 20px;
+}
+.founder h2, .beer h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.founder p {
+	margin-top: 20px;
+}
+.founder ul {
+	margin-left: 50px;
+}
+.beerImage {
+	padding: 3px;
+	margin-left: 25px;
+	border: 1px solid #313131;
+}
+
+/* BEER PAGE */
+
+.beer {
+	border-bottom: 1px dotted #000;
+	margin-bottom: 25px !important;
+}
+.beer img {
+	margin-right: 25px;
+}
+.beer p {
+	clear: both;
+}
+.beer > div > div {
+	margin: 0 20px 10px 0;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+/* CONTACT PAGE */
+
+.contact p, .contact h3 {
+	margin: 0;
+}
+.contact h3 {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.contact_group {
+	margin-bottom: 35px;
+}
+
+/* FOOTER */
+
+#footer {
+	background-color: #000;
+	color: #eee;
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 0;
+}
+#footer a {
+	color: #eee;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+#footer img {
+	margin: 10px 5px 5px 5px;
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+}
