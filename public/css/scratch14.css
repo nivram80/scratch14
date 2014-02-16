@@ -5,7 +5,7 @@ p {
 	font-size: 1.2rem;
 }
 @font-face {
-	font-family: 'titleFont', cursive;
+	font-family: 'titleFont';
   src: url('/fonts/ThrowMyHandsUpintheAir.ttf');
 }
 header {
@@ -33,7 +33,7 @@ header {
 	text-decoration: underline;
 }
 .content h1 {
-	font-family: titleFont;
+	font-family: titleFont, cursive;
 	font-size: 2rem;
 	font-weight: bold;
 	border-bottom: 1px solid #333;
