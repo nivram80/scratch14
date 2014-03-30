@@ -16,11 +16,15 @@ header {
 	height: 55px;
 }
 .name h1 a {
-	font-size: 0.96rem;
+	font-size: 1.0rem;
 }
 .top-bar-section ul li > a {
 	font-size: 0.96rem;
 	padding-top: 10px;
+}
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 50px;
+	font-size: 1.0rem;
 }
 .right {
 	float: right;

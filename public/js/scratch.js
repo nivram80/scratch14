@@ -1,21 +1,21 @@
 var theImages = new Array();
-    theImages[theImages.length] = 'images/scratchBanner4_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner5_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner7_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner8_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner9_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner10_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner11_wide.jpg';
-    theImages[theImages.length] = 'images/scratchBanner12_wide.jpg';         
+    theImages[theImages.length] = 'img/scratchBanner4_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner5_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner7_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner8_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner9_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner10_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner11_wide.jpg';
+    theImages[theImages.length] = 'img/scratchBanner12_wide.jpg';         
 var theURLs = new Array();
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
-    theURLs[theURLs.length] = 'index.html';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
+    theURLs[theURLs.length] = '/';
         
 var imageIndex = Math.round(Math.random()*(theImages.length-1));
     function showNextImage(){
