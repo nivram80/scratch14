@@ -6,7 +6,7 @@ var theImages = new Array();
     theImages[theImages.length] = 'img/scratchBanner9_wide.jpg';
     theImages[theImages.length] = 'img/scratchBanner10_wide.jpg';
     theImages[theImages.length] = 'img/scratchBanner11_wide.jpg';
-    theImages[theImages.length] = 'img/scratchBanner12_wide.jpg';         
+    //theImages[theImages.length] = 'img/scratchBanner12_wide.jpg';         
 var theURLs = new Array();
     theURLs[theURLs.length] = '/';
     theURLs[theURLs.length] = '/';
@@ -15,7 +15,7 @@ var theURLs = new Array();
     theURLs[theURLs.length] = '/';
     theURLs[theURLs.length] = '/';
     theURLs[theURLs.length] = '/';
-    theURLs[theURLs.length] = '/';
+    //theURLs[theURLs.length] = '/';
         
 var imageIndex = Math.round(Math.random()*(theImages.length-1));
     function showNextImage(){
