@@ -1,4 +1,4 @@
-# Scratchtown Brewing Co Website
+# Scratchtown Brewing Website
 Welcome to Scratchtown Brewing Company’s website.  The website is a Sinatra application that integrates Twitter and MailChimp.  I chose to use Ruby and Sinatra, rather than Wordpress or Jekyll, because I plan on creating a CMS for the brewing company so they can add content whenever they would like to.  Also, I have plans to implement a e-commerce feature so customers can order beer and merchandise through the site.
 
 ## Front-end
